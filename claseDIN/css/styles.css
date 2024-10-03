@@ -1,0 +1,126 @@
+body{
+  font-family: 'Clash Display', sans-serif;
+  background: linear-gradient(357deg, rgba(208,238,239,1) 12%, rgba(255,255,255,1) 100%);
+}
+
+.patron{
+  background-image: url(../assets/img/patron2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.navbar-brand :hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+  filter:drop-shadow(8px 8px 10px rgba(53, 53, 53, 0.596));
+}
+
+.nav-item :hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+  filter:drop-shadow(8px 8px 10px rgba(53, 53, 53, 0.596));
+}
+
+#animated-header {
+  position: relative;
+  height: 80vh; 
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.blurro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  z-index: 1;
+}
+
+.nombre{
+  /*font-family: 'Panchang', sans-serif; */
+  font-family: 'Array', sans-serif;
+  background: -webkit-linear-gradient(#D8325B, #91213d);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-weight: 700;
+}
+
+.apartado{
+  font-family: 'Panchang', sans-serif;
+}
+
+.social-icons :hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+  filter:drop-shadow(8px 8px 10px rgba(53, 53, 53, 0.596));
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  height: 300px; 
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.project-card :hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+  filter:drop-shadow(8px 8px 10px rgba(53, 53, 53, 0.596));
+}
+
+
+.project-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  z-index: 2;
+}
+
+.accordion-button {
+  margin-top: 5px;
+}
+
+.accordion-item :hover{
+  filter:brightness(1);
+  transition: 0.7s;
+  font-weight: 900;
+}
+
+.accordion-body {
+  padding: 15px;
+}
+
+.listado :hover{
+  filter: invert(0.90);
+  transition: 0.5s;
+  font-weight: 500;
+ }
